@@ -1,0 +1,7 @@
+---
+title: "Hello World"
+date: "2026-06-21"
+categories: [personal]
+---
+
+This is my first blog post.

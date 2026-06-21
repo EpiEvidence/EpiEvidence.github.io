@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+  
+website:
+  title: "EpiEvidence"
+
+
+  navbar:
+    logo: Logo_only.png
+
+    right:
+      - text: About
+        href: about.qmd
+
+      - text: Projects
+        href: projects.qmd
+
+      - text: Archives
+        href: archives.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
