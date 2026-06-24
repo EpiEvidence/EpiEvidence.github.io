@@ -1,8 +1,20 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/datascience.html",
+    "items": []
+  },
+  {
+    "listing": "/epidemiology.html",
     "items": [
-      "/posts/first-post/index.html"
+      "/epidemiology/first-post/index.html",
+      "/epidemiology/new-post/index.html"
+    ]
+  },
+  {
+    "listing": "/insights.html",
+    "items": [
+      "/insights/second-insight/index.html",
+      "/insights/first-insight/index.html"
     ]
   }
 ]

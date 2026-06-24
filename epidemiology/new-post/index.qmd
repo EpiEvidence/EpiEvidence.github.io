@@ -1,0 +1,15 @@
+---
+title: "Causal Inference?"
+sort_date: "2026-06-20"
+
+categories:
+  - Causal Inference
+  - Study design
+
+description: >
+  An introduction to causal inference and its role in epidemiologic research.
+---
+
+## Introduction
+
+...

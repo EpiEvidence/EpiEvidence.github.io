@@ -1,0 +1,16 @@
+---
+title: ""
+listing:
+  contents: insights
+  type: default
+  sort: "date desc"
+  categories: true
+  page-size: 20
+  fields: [title, description, categories]
+---
+
+<h1 class="site-title">Insights</h1>
+
+Short notes, paper commentaries, observations, useful tools, and research reflections.
+
+

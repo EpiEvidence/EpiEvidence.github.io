@@ -1,0 +1,12 @@
+---
+title: ""
+listing:
+  contents: datascience
+  sort: "date desc"
+  categories: true
+  page-size: 20
+---
+
+<h1 class="site-title">Data Science</h1>
+
+Articles and notes on statistical computing, machine learning, artificial intelligence, visualization, and reproducible research.

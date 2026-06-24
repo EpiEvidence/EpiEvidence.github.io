@@ -1,0 +1,17 @@
+---
+title: "What Is Causal Inference?"
+sort_date: "2026-06-23"
+
+categories:
+  - Causal Inference
+  - Methods
+
+description: >
+  An introduction to causal inference and its role in epidemiologic research.
+
+
+---
+
+## Introduction
+
+causal inference is xxx An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research.

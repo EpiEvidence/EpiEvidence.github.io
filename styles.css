@@ -1,26 +1,366 @@
-/* css styles */
-.navbar-title {
-    font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #163E64;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --epi-blue: #163E64;
+  --epi-text: #333333;
+  --epi-muted: #666666;
+  --epi-light-border: #dddddd;
+  --epi-font: "Inter", sans-serif;
 }
 
+/* General page style */
 body {
-  max-width: 800px;
-  margin: auto;
-  font-family: Georgia, serif;
+  font-family: var(--epi-font);
   line-height: 1.8;
+  color: var(--epi-text);
+  background: #ffffff;
 }
 
+/* Wider centered content */
+#quarto-content {
+  max-width: none !important;
+}
+
+.page-columns {
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+main.content {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+}
+
+/* Navbar */
 .navbar {
-  border-bottom: 1px solid #eee;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
 }
 
+/* Upper-left logo/title */
+.navbar-title {
+  font-family: var(--epi-font);
+  color: var(--epi-blue) !important;
+  font-weight: 700;
+  font-size: 1.32rem;
+  letter-spacing: -0.02em;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  font-family: var(--epi-font);
+  color: var(--epi-text);
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--epi-blue);
+}
+
+/* EpiEvidence title on Home and About pages */
+.site-title {
+  font-family: var(--epi-font);
+  color: var(--epi-blue);
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
+}
+
+/* Tagline */
+.site-tagline {
+  font-size: 1.05rem;
+  color: var(--epi-muted);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: var(--epi-font);
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+/* Links */
 a {
+  color: var(--epi-blue);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Homepage links */
+.home-links {
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.home-links p {
+  margin: 0.6rem 0;
+}
+
+.home-links a {
+  color: var(--epi-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.home-links a:hover {
+  text-decoration: underline;
+}
+
+/* Blog/listing pages */
+.quarto-listing .listing-title {
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.quarto-listing .listing-title a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.quarto-listing .listing-title a:hover {
+  color: var(--epi-blue);
+  text-decoration: underline;
+}
+
+.quarto-listing .listing-date {
+  color: #999999;
+  font-size: 0.9rem;
+}
+
+.quarto-listing .listing-description {
+  color: #555555;
+  margin-top: 0.5rem;
+}
+
+.quarto-category {
+  background: #f4f4f4;
+  border: none;
+  color: var(--epi-muted);
+  font-size: 0.8rem;
+}
+
+/* Publications */
+.pub-timeline {
+  margin-top: 2rem;
+}
+
+.pub-year {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  margin-bottom: 2.5rem;
+}
+
+.pub-year-label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--epi-muted);
+  padding-top: 0.15rem;
+}
+
+.pub-items {
+  border-left: 2px solid var(--epi-light-border);
+  padding-left: 2rem;
+}
+
+.pub-title {
+  position: relative;
+  margin: 0rem;
+  padding-left: 1rem;
+  line-height: 1.35;
+}
+
+.pub-title::before {
+  content: "•";
+  position: absolute;
+  left: -0.5rem;
+  color: #666666;
+}
+
+.pub-title a {
+  color: #222222;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: var(--epi-blue);
+  text-decoration: underline;
+}
+
+.pub-journal {
+  margin: 0 0 0.8rem 1rem;
+  color: #777777;
+  font-size: 0.92rem;
+  font-style: italic;
+  line-height: 1.25;
+}
+
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .page-columns,
+  main.content {
+    max-width: 100% !important;
+    margin: 2rem 1rem !important;
+  }
+
+  .site-title {
+    font-size: 1.9rem;
+  }
+
+  .pub-year {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-year-label {
+    margin-bottom: 0.75rem;
+  }
+
+  .pub-items {
+    border-left: none;
+    border-top: 2px solid var(--epi-light-border);
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  .pub-journal {
+    margin-left: 1rem;
+  }
+}
+
+
+
+
+
+
+/* Remove Quarto's image-right layout from listing pages */
+.quarto-post.image-right {
+  display: block !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.quarto-post.image-right .body {
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.quarto-post.image-right .metadata {
+  display: none !important;
+}
+
+.quarto-post.image-right .thumbnail {
+  display: none !important;
+}
+
+/* Reduce gap between categories and description */
+
+.listing-categories {
+  margin-bottom: 0 !important;
+}
+
+.listing-description {
+  margin-top: 0 !important;
+}
+
+.listing-description p {
+  margin-top: 0 !important;
+}
+
+
+.quarto-title-meta-heading {
+  display: none;
+}
+
+.quarto-title-meta-contents {
+  color: #777777 !important;
+  font-size: 0.95rem;
+}
+
+
+
+
+
+
+/* ==========================================
+   Home Page Grid
+   ========================================== */
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.home-card {
+  display: block;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  background: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.home-card:hover {
+  border-color: var(--epi-blue);
+  text-decoration: none;
+}
+
+.home-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--epi-blue);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.home-card p {
+  margin: 0;
+  color: #666666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-card-wide {
+    grid-column: auto;
+  }
+}
+
+
+
+
+
+.home-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.home-card h2 a {
+  font-weight: 600;
+  color: var(--epi-blue);
+  text-decoration: none;
 }

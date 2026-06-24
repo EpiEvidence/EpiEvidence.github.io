@@ -1,23 +1,114 @@
 [
   {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "\nPublications\n",
+    "section": "",
+    "text": "Publications\n\n\n\n\n\n2026\n\n\nOutcomes of pregnancies complicated by maternal autoimmune diseases in Denmark, Finland, and Sweden: a multi-national population‐based register study\n\nAJOG Global Reports\n\nLong-term patient-reported outcomes after multiport robot-assisted surgery versus video-assisted surgery for lung cancer: an observational cohort study\n\nAnnals of Surgical Oncology\n\nASO Visual Abstract: Long-Term Patient-Reported Outcomes After Multiport Robot-Assisted Surgery Versus Video-Assisted Surgery for Lung Cancer: An Observational Cohort Study\n\nAnnals of Surgical Oncology\n\nPatient perspectives on electronic patient-reported outcome-based symptom management after lung cancer surgery: a qualitative study\n\nJournal of Patient-Reported Outcomes\n\nConceptualizing and Determining Laparoscopic Competencies in Surgical Residents: A Qualitative Study from China\n\nThe American Journal of Surgery\n\n\n\n2025\n\n\nLong‐Term Function Recovery Following Upper Versus Lower Lobectomy for Lung Cancer: A Multicenter Longitudinal Cohort Study\n\nThoracic cancer\n\n\n\n2024\n\n\nExploring the genetic etiology across the continuum of the general psychopathology factor: a Swedish population-based family and twin study\n\nMolecular Psychiatry\n\nElectronic Patient-Reported Outcome–Based Symptom Management Versus Usual Care After Lung Cancer Surgery: Long-Term Results of a Multicenter, Randomized, Controlled Trial\n\nJournal of Clinical Oncology\n\nComparing the Efficacy of Empirical Anti‐Infective Therapy and Follow‐Up Observation for Newly Diagnosed Pulmonary Ground‐Glass Nodules With Suspected Inflammatory Etiology: A Multicenter Prospective Observational Study Protocol\n\nHealth Science Reports\n\nOrlistat for the treatment of antipsychotic-induced weight gain: an eight-week multicenter, randomized, placebo-controlled, double-blind trial\n\nLipids in Health and Disease\n\n\n\n2023\n\n\nLongitudinal patient-reported outcomes 1 year after thoracoscopic segmentectomy versus lobectomy for early-stage lung cancer: a multicentre, prospective cohort study protocol\n\nBMJ open\n\nMethod exploration of telephone follow-up in clinical research\n\nChinese Journal of Clinical Thoracic and Cardiovascular Surgery\n\n\n\n2022\n\n\nPatient-reported outcome-based symptom management versus usual care after lung cancer surgery: a multicenter randomized controlled trial\n\nJournal of Clinical Oncology\n\nComment on:“A Randomized Controlled Trial Evaluating Electronic Outpatient Symptom Monitoring After Ambulatory Cancer Surgery”\n\nAnnals of Surgery\n\nPsychological distress after esophageal cancer surgery and the predictive effect of dispositional optimism: a nationwide population-based longitudinal study\n\nSupportive Care in Cancer\n\nDispositional optimism and all-cause mortality after esophageal cancer surgery: a nationwide population-based cohort study\n\nSupportive Care in Cancer\n\nProtocol of an iterative qualitative study to develop a molecular testing decision aid for shared decision-making in patients with lung cancer after surgery\n\nBMJ open\n\nSevere reflux and symptoms of anxiety and depression after esophageal cancer surgery\n\nCancer Nursing\n\nVisualizing Psychometric Results-The first step towards standardizing interpretable figures\n\nQuality of Life Research\n\n\n\n2021\n\n\nHigher Dispositional Optimism Predicts Better Health-Related Quality of Life After Esophageal Cancer Surgery: A Nationwide Population-Based Longitudinal Study: Y. Liu et al.\n\nAnnals of Surgical Oncology\n\nASO Author Reflections: the Role of Dispositional Optimism for Better Health-Related Quality of Life after Esophageal Cancer Surgery\n\nAnnals of Surgical Oncology\n\nPsychological distress and health-related quality of life up to 2 years after oesophageal cancer surgery: nationwide population-based study\n\nBJS open\n\nTranslation and adaptation of the EORTC QLQ-LC 29 for use in Chinese patients with lung cancer\n\nJournal of patient-reported outcomes\nClinician workload and patient satisfaction of patient-reported outcome-based symptom management for patients undergoing lung cancer surgery: a multicentre, randomised controlled trial\nQuality of Life Research\nHigher dispositional optimism predicts better health-related quality of life after esophageal cancer surgery\nQuality of Life Research\n\n\n\n2020\n\n\nConfirmatory factor analysis for Life Orientation Test-Revised among patients with esophageal cancer\n\nPsyArXiv\nDispositional optimism predicts development of anxiety and/or depression among survivors after esophageal cancer surgery\nQuality of Life Research\n\n\n\n2018\n\n\nNeuroprotective potential of glibenclamide is mediated by antioxidant and anti-apoptotic pathways in intracerebral hemorrhage\n\nBrain Research Bulletin\nThe influence of psychological distress on the recovery of health-related quality of life in post-operative oesophageal cancer patients\nQuality of Life Research\n\n\n\n2014\n\nThe Sandplay's Efficacy and Application Status in the Treatment of Mental Diseases\nMedical Recapitulate"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EpiEvidence",
+    "title": "\nEpiEvidence\n",
     "section": "",
-    "text": "Hello World\n\n\n\n\n\n\n\n\nJun 21, 2026\n\n\n\n\n\nNo matching items"
+    "text": "EpiEvidence\n\n\nAdvancing Health through Evidence, Empowering Research with Intelligence, Enabling Decisions through Research.\n\n\n\n\nEpidemiology →\n\n\nRandomized control trials, real-world evidence, and methods.\n\n\n\n\nData Science →\n\n\nStatistics, machine learning, artificial intelligence, and data visualization.\n\n\n\n\nInsights →\n\n\nShort notes, paper commentaries, observations, and research reflections.\n\n\n\n\nPublications →\n\n\nResearch papers, preprints, and meeting abstracts.\n\n\n\n\nAbout →\n\n\nMission, founder, disclaimer, and contact information."
+  },
+  {
+    "objectID": "epidemiology/new-post/index.html",
+    "href": "epidemiology/new-post/index.html",
+    "title": "Causal Inference?",
+    "section": "",
+    "text": "…"
+  },
+  {
+    "objectID": "epidemiology/new-post/index.html#introduction",
+    "href": "epidemiology/new-post/index.html#introduction",
+    "title": "Causal Inference?",
+    "section": "",
+    "text": "…"
+  },
+  {
+    "objectID": "datascience.html",
+    "href": "datascience.html",
+    "title": "\nData Science\n",
+    "section": "",
+    "text": "Data Science\n\nArticles and notes on statistical computing, machine learning, artificial intelligence, visualization, and reproducible research.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "\nAbout EpiEvidence\n",
     "section": "",
-    "text": "About this site"
+    "text": "About EpiEvidence\nEpiEvidence is a personal website and knowledge platform founded by Yangjun Liu, where she shares insights on epidemiology, data science, evidence-based research, and scientific discovery.\nThe platform aims to make complex research methods, analytical approaches, and emerging evidence more accessible to researchers, healthcare professionals, students, and decision-makers."
   },
   {
-    "objectID": "posts/first-post/index.html",
-    "href": "posts/first-post/index.html",
-    "title": "Hello World",
+    "objectID": "about.html#mission",
+    "href": "about.html#mission",
+    "title": "\nAbout EpiEvidence\n",
+    "section": "Mission",
+    "text": "Mission\nTo advance health through evidence, empower research with intelligence, and enable better decisions through rigorous science, epidemiology, and data-driven insights."
+  },
+  {
+    "objectID": "about.html#founder",
+    "href": "about.html#founder",
+    "title": "\nAbout EpiEvidence\n",
+    "section": "Founder",
+    "text": "Founder\nYangjun Liu is an MD–PhD-trained epidemiologist and data scientist with a medical degree from Central South University (a top-10 university in Medicine in China) and doctoral and postdoctoral training at Karolinska Institutet (a top-10 university in Medicine worldwide).\nYangjun Liu brings a combination of advanced epidemiological expertise and clinical insight. With more than 13 years of research experience, including over 8 years dedicated to epidemiological studies, she has built a strong track record in randomized controlled trials and real-world evidence research. Her expertise spans patient-reported outcomes, epidemiologic study design, advanced statistical analysis, causal inference, results interpretation, and scientific writing across diverse data sources and disease areas. As a former physician with intensive residency training and a medical license, she also brings a deep understanding of clinical medicine and real-world patient care, enabling her to bridge rigorous research with meaningful clinical impact.\nYangjun Liu is proficient in multiple statistical software, including R, SAS, Stata, and Mplus."
+  },
+  {
+    "objectID": "about.html#disclaimer",
+    "href": "about.html#disclaimer",
+    "title": "\nAbout EpiEvidence\n",
+    "section": "Disclaimer",
+    "text": "Disclaimer\nEpiEvidence is a personal website. The views and opinions expressed on this website are solely those of the author and do not necessarily reflect the views of any current or former employer, client, or affiliated organization."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "\nAbout EpiEvidence\n",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: epievidence_info@gmail.com"
+  },
+  {
+    "objectID": "epidemiology/first-post/index.html",
+    "href": "epidemiology/first-post/index.html",
+    "title": "What Is Causal Inference?",
     "section": "",
-    "text": "This is my first blog post."
+    "text": "causal inference is xxx An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research."
+  },
+  {
+    "objectID": "epidemiology/first-post/index.html#introduction",
+    "href": "epidemiology/first-post/index.html#introduction",
+    "title": "What Is Causal Inference?",
+    "section": "",
+    "text": "causal inference is xxx An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research."
+  },
+  {
+    "objectID": "epidemiology.html",
+    "href": "epidemiology.html",
+    "title": "\nEpidemiology\n",
+    "section": "",
+    "text": "Epidemiology\n\nArticles and notes on epidemiologic methods, study design, causal inference, surveillance, public health, and population health research.\n\n\n\n\n\n\n\n\n\n\nWhat Is Causal Inference?\n\n\n\nCausal Inference\n\nMethods\n\n\n\nAn introduction to causal inference and its role in epidemiologic research.\n\n\n\n\n\n\n\n\n\n\nCausal Inference?\n\n\n\nCausal Inference\n\nStudy design\n\n\n\nAn introduction to causal inference and its role in epidemiologic research.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "insights/first-insight/index.html",
+    "href": "insights/first-insight/index.html",
+    "title": "Causal Inference in RWE",
+    "section": "",
+    "text": "causal inference is xxx An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research."
+  },
+  {
+    "objectID": "insights/first-insight/index.html#introduction",
+    "href": "insights/first-insight/index.html#introduction",
+    "title": "Causal Inference in RWE",
+    "section": "",
+    "text": "causal inference is xxx An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research.An introduction to causal inference and its role in epidemiologic research."
+  },
+  {
+    "objectID": "insights.html",
+    "href": "insights.html",
+    "title": "\nInsights\n",
+    "section": "",
+    "text": "Insights\n\nShort notes, paper commentaries, observations, useful tools, and research reflections.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCausal Inference in RWE\n\n\n\nCausal Inference\n\nRWE\n\n\n\nAn introduction to causal inference and its role in epidemiologic research.\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

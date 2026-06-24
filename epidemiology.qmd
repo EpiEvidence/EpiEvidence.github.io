@@ -1,0 +1,17 @@
+---
+title: ""
+listing:
+  contents: epidemiology
+  type: default
+  sort:
+    - sort_date desc
+  categories: true
+  page-size: 20
+  fields: [title, description, categories]
+---
+
+<h1 class="site-title">Epidemiology</h1>
+
+Articles and notes on epidemiologic methods, study design, causal inference, surveillance, public health, and population health research.
+
+<br>

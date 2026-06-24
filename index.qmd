@@ -1,6 +1,38 @@
 ---
 title: ""
-listing:
-  contents: posts
-  sort: date desc
 ---
+
+<h1 class="site-title">EpiEvidence</h1>
+
+<p class="site-tagline">
+Advancing Health through Evidence, Empowering Research with Intelligence, Enabling Decisions through Research.
+</p>
+
+<div class="home-grid">
+
+<div class="home-card">
+<h2><a href="epidemiology.html">Epidemiology →</a></h2>
+<p>Randomized control trials, real-world evidence, and methods.</p>
+</div>
+
+<div class="home-card">
+<h2><a href="datascience.html">Data Science →</a></h2>
+<p>Statistics, machine learning, artificial intelligence, and data visualization.</p>
+</div>
+
+<div class="home-card">
+<h2><a href="insights.html">Insights →</a></h2>
+<p>Short notes, paper commentaries, observations, and research reflections.</p>
+</div>
+
+<div class="home-card">
+<h2><a href="publications.html">Publications →</a></h2>
+<p>Research papers, preprints, and meeting abstracts.</p>
+</div>
+
+<div class="home-card">
+<h2><a href="about.html">About →</a></h2>
+<p>Mission, founder, disclaimer, and contact information.</p>
+</div>
+
+</div>

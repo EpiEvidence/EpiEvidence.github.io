@@ -13,5 +13,65 @@
   },
   "projects.qmd": {
     "projects.html": "8c638258"
+  },
+  "blog-datascience.qmd": {
+    "blog-datascience.html": "c3e4d8c9"
+  },
+  "blog-epidemiology.qmd": {
+    "blog-epidemiology.html": "403eff08"
+  },
+  "Blog.qmd": {
+    "Blog.html": "9ee54163"
+  },
+  "Insights.qmd": {
+    "Insights.html": "d8a5ba46"
+  },
+  "Publications.qmd": {
+    "Publications.html": "1942db43"
+  },
+  "datascience.qmd": {
+    "datascience.html": "ead42344"
+  },
+  "epidemiology.qmd": {
+    "epidemiology.html": "c989d83d"
+  },
+  "docs/blog.qmd": {
+    "blog.html": "9f20048b"
+  },
+  "docs/datascience.qmd": {
+    "datascience.html": "aaec99df"
+  },
+  "docs/epidemiology.qmd": {
+    "epidemiology.html": "c18494f9"
+  },
+  "docs/insights.qmd": {
+    "insights.html": "c5fd718b"
+  },
+  "docs/publications.qmd": {
+    "publications.html": "07b59883"
+  },
+  "Publications_old.qmd": {
+    "Publications_old.html": "f39776a7"
+  },
+  "insights/first-insight/index.qmd": {
+    "index.html": "6ce9f3c1"
+  },
+  "insights/second-insight/index.qmd": {
+    "index.html": "e91feada"
+  },
+  "insights.qmd": {
+    "insights.html": "b482298e"
+  },
+  "publications.qmd": {
+    "publications.html": "710c6a73"
+  },
+  "epidemiology/first-post/index.qmd": {
+    "index.html": "1b984501"
+  },
+  "epidemiology/new-post/index.qmd": {
+    "index.html": "8229c4dc"
+  },
+  "index_old.qmd": {
+    "index_old.html": "0833e3f2"
   }
 }

@@ -1,0 +1,70 @@
+---
+title: ""
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+<h1 class="site-title">Publications</h1>
+
+```{r}
+library(readr)
+library(dplyr)
+library(htmltools)
+
+pubs <- read_csv("publications.csv", show_col_types = FALSE)
+
+pubs <- pubs |>
+  filter(!is.na(Year), !is.na(Title), !is.na(Publication)) |>
+  arrange(desc(Year))
+
+years <- pubs |>
+  pull(Year) |>
+  unique()
+
+tagList(
+  div(
+    class = "pub-timeline",
+
+    lapply(years, function(y) {
+
+      year_pubs <- pubs |>
+        filter(Year == y)
+
+      div(
+        class = "pub-year",
+
+        div(class = "pub-year-label", y),
+
+        div(
+          class = "pub-items",
+
+          lapply(seq_len(nrow(year_pubs)), function(i) {
+
+            link <- year_pubs$Link[i]
+            title <- year_pubs$Title[i]
+            journal <- year_pubs$Publication[i]
+
+            tagList(
+              p(
+                class = "pub-title",
+                if (!is.na(link) && link != "") {
+                  a(href = link, title)
+                } else {
+                  title
+                }
+              ),
+
+              p(
+                class = "pub-journal",
+                journal
+              )
+            )
+          })
+        )
+      )
+    })
+  )
+)
+```

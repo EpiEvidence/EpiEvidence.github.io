@@ -1,7 +1,13 @@
 {
   "listingMap": {
-    "index.qmd": [
-      "posts"
+    "datascience.qmd": [
+      "datascience"
+    ],
+    "epidemiology.qmd": [
+      "epidemiology"
+    ],
+    "insights.qmd": [
+      "insights"
     ]
   }
 }

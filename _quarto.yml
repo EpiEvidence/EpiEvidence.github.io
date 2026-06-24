@@ -5,21 +5,30 @@ project:
 website:
   title: "EpiEvidence"
 
-
   navbar:
     logo: Logo_only.png
 
     right:
+      - text: Home
+        href: index.qmd
+
+      - text: Epidemiology
+        href: epidemiology.qmd
+
+      - text: Data Science
+        href: datascience.qmd
+
+      - text: Insights
+        href: insights.qmd
+
+      - text: Publications
+        href: publications.qmd
+
       - text: About
         href: about.qmd
-
-      - text: Projects
-        href: projects.qmd
-
-      - text: Archives
-        href: archives.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: false
